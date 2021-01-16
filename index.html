@@ -1,0 +1,35 @@
+<!--
+   Revendo conceitros basicos de logica de programacao usando a ferramenta JavaScript 
+-->
+<!--
+
+<script>
+
+    a = parseInt( prompt("Digite o 1o numero: "))
+    b = parseInt( prompt("Digite o 2o numero: "))
+
+    c = alert( "O resultado da Soma: " + String( a + b ) )
+
+</script>
+-->
+
+<script>
+
+    valorBruto = parseInt(prompt("Valor bruto anual: "))
+    valorDividas = parseInt(prompt("Valor Anual das dividas: "))
+    valorMensal = (valorBruto-valorDividas) / 12
+
+    valorLucroMensal = alert("Voce ganhou " + String(valorBruto) + " e seu O valor mensal de lucro é de: " + String(valorMensal)  + " reais!!!")
+
+    if(valorMensal < 100 )
+    {
+        alert("Valor mensal abaixo do desejado!")
+    }
+    else
+    {
+        alert("OK! O valor esta dentro do planejado!!!")
+    }
+
+</script>
+
+
